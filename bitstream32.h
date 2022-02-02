@@ -65,7 +65,6 @@ namespace ezb {
          * @param start Index from which the write starts
          * @param data Data to be written to the bitstream
          * @param no_bits_to_write Number of bits to be written from data to the bitstream, starting from the lower bits
-         *                         Values >8 in this field
          */
         void write_word(UINT64 start, UINT32 data, UINT8 no_bits_to_write=32);
 
