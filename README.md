@@ -18,7 +18,7 @@ Implementations of individual bitstreams of word size X are given under bitstrea
 
 An example invocation is:
 
-'''c++
+```c++
 #include "bitstream64.h"
 {..}
 Bitstream64 bitstream;
@@ -29,5 +29,6 @@ uint64_t *buf;
 uint64_t buf_size;
 bitstream.flush(buf, buf_size);
 // do whatever with buf
+```
 
 The library is still under development. If you encounter a bug, please go with an issue into a pull request.
